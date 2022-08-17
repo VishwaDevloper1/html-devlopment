@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: rgb(61, 161, 207);
+    margin: 0px;
+    height: 40px;
+    border-radius: 8px;
+    animation-name: ana;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+ 
+@keyframes ana {
+    From{
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: rgb(61, 161, 207);
+    }
+    to{
+        margin-top: 600px;
+        
+        margin-right: 800px;
+       background-color: black;
+    }
+}
+
+
+
+
+
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: sans-serif;
+     
+}
+.navbar li{
+       list-style: none;
+       display: inline;
+     float: left;
+     margin:9px;
+     text-align: center;
+       
+     
+   }
+
+
+
+@media (max-width:360px){
+
+
+}
